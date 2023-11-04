@@ -25,3 +25,5 @@ function meeting(s) {
                 .join(')(')
   return '(' + string + ')'                
 }
+
+// or

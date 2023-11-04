@@ -27,3 +27,11 @@ function meeting(s) {
 }
 
 // or
+
+const meeting = s => {
+  return s.toUpperCase()
+          .replace(/(\w+):(\w+)/g, "($2, $1)")
+          .split(';')
+          .sort()
+          .join('')
+}
